@@ -9,6 +9,9 @@
 
 }
 @media all and (max-width: 600px){
+    .rotate-area3 {
+        display: none;
+    }
     .pages {
         position: fixed;
         top: 0%;
@@ -51,6 +54,7 @@
     .rotate-area4{
         display: none;
     }
+    
 }
 
 

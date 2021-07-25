@@ -244,6 +244,7 @@ button a {
 	top: 61%;
 	transform: rotate(-90deg);
 	filter: grayscale(100%);
+	display: block;
 }
 
 .my-col-right2 {
