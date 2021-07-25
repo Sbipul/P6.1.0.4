@@ -1,0 +1,56 @@
+@media all and (max-width:990px){
+
+
+
+}
+@media all and (max-width:767px){
+
+
+
+}
+@media all and (max-width: 600px){
+    .pages {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background: #262626;
+        padding: 7px 0px;
+        width: 100%;
+        z-index: 1000;
+    }
+    .pages ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .pages ul li {
+        display: inline-block;
+    }
+    .heading h1,h2 {
+        margin: 0;
+    }
+	.img-bdr {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+    .sub-skills {
+        grid-template-columns: auto;
+    }
+    .skill-area,.about-area {
+        padding-top: 150px;
+    }
+    .bip{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .all-sub-ex {
+        grid-template-columns:auto;
+    }
+}
+
+
+
+
+
