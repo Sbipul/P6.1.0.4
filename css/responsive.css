@@ -48,6 +48,9 @@
     .all-sub-ex {
         grid-template-columns:auto;
     }
+    .rotate-area4{
+        display: none;
+    }
 }
 
 
