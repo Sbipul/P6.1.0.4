@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+.body{
+	height: 100vh;
+	overflow: hidden;
+}
 a {
 	text-decoration: none;
 }
@@ -188,13 +192,13 @@ button a {
 
 
 .main {
-	width: 70%;
-	height: 70%;
+	width: 90%;
 	padding: 20px;
 	box-shadow: inset 5px 5px 5px #3c3b3b, inset -5px -5px 5px #404040;
 	border-radius: 10px;
 	position: relative;
 	z-index: 2;
+	margin: 0 auto;
 }
 
 .sub {
@@ -297,6 +301,38 @@ button a {
 .skills {
 	margin-top: 60px;
 }
+/* My Skills */
+
+.progress {
+    height: 8px;
+    border-radius: 20px;
+	margin-bottom: 35px;
+	background-color: #000;
+}
+
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+}
+span {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00c3ff;
+    line-height: 17px;
+    margin-bottom: 5px;
+	text-align: left;
+}
+.progress-bar {
+    text-align: left;
+	background-color: #00e7ff;
+    border-radius: 20px;
+    transition-duration: 3s;
+}
+
 
 .sub-skills {
 	display: grid;

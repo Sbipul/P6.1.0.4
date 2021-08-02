@@ -20,7 +20,7 @@
     <div class="section1">
         <div class="container">
             <div class="myCont1">
-                <div class="row align-center">
+                <div class="row align-items-center">
                     <div class="col-12 col-md-6">
                         <div class="my-md-left1">
                             <div class="heading">
@@ -33,18 +33,48 @@
 
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="my-md-right1">
-                            <!-- this div is only for animation -->
+                        <!-- <div class="my-md-right1">
+                             this div is only for animation 
                             <div class="rotate-area"></div>
-                            <!-- this div is only for animation -->
+                             this div is only for animation 
                             <div class="img-bdr">
                                 <img src="img/MIP_3238~2.jpg">
                                 <div class="image-area">
                                     <img src="img/IMG_3852.JPG" alt="">
-                                </div>
-                            </div>
+                                </div> -->
 
-                        </div>
+                                <!-- canvas area start  -->
+                                <canvas width="390" class="float-end" height="409" id="myCanvas">
+                                    <ul>
+                                        <li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML 5</a></li>
+                                        <li><a data-weight="25" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS 3</a></li>
+                                        <li><a data-weight="15" href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank">SASS</a></li>
+                                        <li><a data-weight="15" href="https://en.wikipedia.org/wiki/Less_(stylesheet_language)" target="_blank">ES6</a></li>
+                                        <li><a data-weight="25" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></li>
+                                        <li><a data-weight="19" href="https://en.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a></li>
+                                        <li><a data-weight="19" href="https://en.wikipedia.org/wiki/JQueryUI" target="_blank">jQuery UI</a></li>
+                                        <li><a data-weight="23" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap 4</a></li>
+                                        <li><a data-weight="25" href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a></li>
+                                        <li><a data-weight="19" href="https://en.wikipedia.org/wiki/MySQL" target="_blank">mySQl</a></li>
+                                        <li><a data-weight="19" href="https://en.wikipedia.org/wiki/MySQL" target="_blank">Web app</a></li>
+                                        <li><a data-weight="26" href="https://en.wikipedia.org/wiki/WordPress" target="_blank">Bootstrap 5</a></li>
+                                        <li><a data-weight="17" href="https://en.wikipedia.org/wiki/Git" target="_blank">Git</a></li>
+                                        <li><a data-weight="17" href="https://en.wikipedia.org/wiki/WooCommerce" target="_blank">Photopea</a></li>
+                                        <li><a data-weight="17" href="https://en.wikipedia.org/wiki/GitHub" target="_blank">Git Hub</a></li>
+                                        <li><a data-weight="17" href="https://en.wikipedia.org/wiki/User_interface_design" target="_blank">React</a></li>
+                                        <li><a data-weight="17" href="https://en.wikipedia.org/wiki/User_experience_design" target="_blank">Git bash</a></li>
+                                        <li><a data-weight="13" href="https://en.wikipedia.org/wiki/XML" target="_blank">XML</a></li>
+                                        <li><a data-weight="13" href="https://en.wikipedia.org/wiki/Mailchimp" target="_blank">CMD</a></li>
+                                        <li><a data-weight="24" href="https://en.wikipedia.org/wiki/Adobe_XD" target="_blank">Adobe XD</a></li>
+                                        <li><a data-weight="24" href="https://en.wikipedia.org/wiki/Adobe_Photoshop" target="_blank">Adobe Photoshop</a></li>
+                                        <li><a data-weight="21" href="https://en.wikipedia.org/wiki/Node.js" target="_blank">Figma</a></li>
+                                        <li><a data-weight="19" href="https://www.npmjs.com/" target="_blank">npm</a></li>
+                                    </ul>
+                                  </canvas>
+                                <!-- canvas area end  -->
+                            <!-- </div>
+
+                        </div> -->
                     </div>
                 </div>
 
@@ -68,19 +98,22 @@
 
     </div>
 
-
-    <script>
+    <!-- <script>
         var img = document.querySelector('.image-area');
 
         img.addEventListener('click', () => {
             img.classList.toggle('slide');
             img.style.transition = '2s';
         })
-    </script>
+    </script> -->
+
     <script src="https://kit.fontawesome.com/b7ab4b2e5e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="https://www.goat1000.com/jquery.tagcanvas.min.js"></script>
+    <script src="js/jQery.js"></script>
 </body>
 
 </html>
