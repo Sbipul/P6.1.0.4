@@ -84,6 +84,7 @@ button {
 .section1 {
 	background: #2d2d2d;
 	padding: 127px 0px;
+	height: 100vh;
 }
 
 .heading h1,
@@ -192,7 +193,8 @@ button a {
 
 
 .main {
-	width: 90%;
+	width: 60%;
+	/* height: 500px; */
 	padding: 20px;
 	box-shadow: inset 5px 5px 5px #3c3b3b, inset -5px -5px 5px #404040;
 	border-radius: 10px;
@@ -208,6 +210,7 @@ button a {
 .about-area {
 	background: #2d2d2d;
 	padding: 45px 0px;
+	height: 100vh;
 }
 
 .about h3 {
@@ -217,7 +220,7 @@ button a {
 .about {
 	text-align: center;
 	width: 160px;
-	margin: 0 auto 45px auto;
+	margin: 0 auto 5px auto;
 	box-shadow: 2px 2px 3px #000, -2px -2px 2px #393939;
 	padding: 5px 0px;
 	border-radius: 50px;
@@ -291,6 +294,7 @@ button a {
 	color: aqua;
 	box-shadow: 2px 2px 2px black, -2px -2px 2px #5b5b5b;
 	border-radius: 25px;
+	width: 120px;
 }
 
 .myCont3 input:focus {
