@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-#cursor{
+/* #cursor{
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -45,7 +45,7 @@
 		height: 30px;
 		width: 30px;
 	}
-}
+} */
 .body {
 	height: 100vh;
 	overflow: hidden;
@@ -137,8 +137,7 @@ button {
 	height: 100vh;
 }
 
-.heading h1,
-h2,
+
 p {
 	color: aqua;
 	font-weight: bold;
@@ -525,4 +524,40 @@ p {
 	color: aqua;
 	background: #2d2d2d;
 	box-shadow: 5px 5px 5px #000, -5px -5px 5px #464545;
+}
+.fs-custom{
+	font-size: 5rem;
+}
+.aqua{
+	color:aqua;
+}
+.forHover{
+	position: relative;
+	z-index: 10;
+	
+}
+#expert{
+	display: none;
+}
+.subDiv{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	background: rgb(255, 255, 255);
+	top: 0%;
+	opacity: 0;
+	z-index: 5;
+	transition: .5s;
+	transform: rotate(-45deg);
+}
+.forHover:hover .subDiv{
+	top: 100%;
+	opacity: 1;
+	transform: rotate(10deg);
+	left: -5%;
+	
+}
+.forHover:hover{
+	background: rgb(0, 217, 255);
+	
 }
