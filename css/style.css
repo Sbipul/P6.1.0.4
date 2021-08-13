@@ -8,7 +8,7 @@
     border-radius: 50%;
     border: 1px solid rgb(0, 225, 255);
     position:absolute;
-    transition-duration: 500ms;
+    transition-duration: 200ms;
     transition-timing-function: ease-out;
 	animation: bipul2 1s infinite;
 
